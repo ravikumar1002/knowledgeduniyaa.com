@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.front-page-img {
+    background-image: url('../../img/about/nav-click-img.jpg');
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+.front-page-img::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(15, 28, 51);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+.Eduford {
+    font-size: 2.5rem;
+    padding: 0.68rem;
+    color: white;
+    position: relative;
+    margin-top: 1.25rem;
+    margin-left: 4.62rem;
+    padding: 0.68rem;
+    font-weight: bolder
+}
+.nav-item {
+    display: flex;
+    padding: 0.62rem;
+    position: relative;
+    gap: 1.25rem;
+    margin-top: 1.56rem;
+    margin-right: 5.37rem;
+}
+.nav-item li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.nav-item li {
+    list-style: none;
+    padding: 0.68rem;
+
+
+}
+.front-page {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.front-page h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+
+
+}
+
+
+.categories-img img{
+    width: 40vw;
+    height: 55vh;
+}
+
+.post-categories{
+    display: flex;
+   justify-content: center;
+ 
+   margin: 5rem 5rem 1.5rem 5rem;
+    gap: 2rem;
+
+}
+
+.table-heading{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1.5rem 0rem;
+    background-color: rgb(255, 108, 41);
+   padding: 0.5rem ;
+   text-align: center;
+}
+
+td{
+    font-size: 1.2rem;
+    
+    text-align: left;
+    padding:0.5rem;
+    
+   
+}
+.table-line{
+    width: 20rem;
+}
+
+
+
+.online-programs{
+    width: 40vw;
+    margin: 0rem 15.58rem;
+}
+.programs-heading{
+      font-size: 2rem;
+      margin: 0rem 0rem 0.5rem 0rem;
+}
+
+.programs-line-1{
+    color: rgb(99, 97, 98);
+    margin: 1.5rem 0rem;
+}
+.comment{
+    width:38vw ;
+    margin: 4rem 15.58rem;
+    border: 2px solid rgb(168, 163, 163);
+    padding: 1rem;
+   
+}
+.form-1{
+  padding: 0.3rem 0rem;
+  margin: 1rem 0rem;
+  width: 38vw;
+  margin: 1rem 0rem;
+  
+}
+.comment p{
+    font-size:1.5rem ;
+    font-weight: 900;
+
+}
+input{
+    width: 36.6vw;
+    border: transparent;
+    padding: 0.6rem 0.5rem;
+   color: black;
+  
+  background-color: rgb(247, 242, 242);
+}
+
+
+textarea{
+    background-color: rgb(247, 242, 242);
+    padding: 0.6rem 0.5rem;
+    font-size: 0.9rem;
+    border: transparent;
+    resize: none;
+}
+.post-comment {
+    margin: 1.5rem 0 1rem 2rem;
+}
+
+
+.post-comment a{
+    text-decoration: none;
+    background-color: rgb(221, 94, 85);
+    padding: 0.7rem 1.9rem;
+    color: white;
+    
+}
+
+
+.about{
+    height: 15rem;
+}
+.about-us-1{
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 2.5rem;
+}
+.about-us-2{
+    text-align: center;
+    margin: 0 21rem 0 21rem;
+}
+.about-us-3{
+    text-align: center;
+    margin: 2rem ;
+}
+
+.copyright{
+    text-align: center;
+}
+.star-review{
+font-size: 1.5rem;
+ color: rgba(238, 44, 18, 0.87);
+
+}

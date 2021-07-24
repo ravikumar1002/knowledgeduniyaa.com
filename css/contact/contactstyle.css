@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.front-page-img {
+    background-image: url('../../img/about/nav-click-img.jpg');
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+.front-page-img::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(15, 28, 51);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+.Eduford {
+    font-size: 2.5rem;
+    padding: 0.68rem;
+    color: white;
+    position: relative;
+    margin-top: 1.25rem;
+    margin-left: 4.62rem;
+    padding: 0.68rem;
+    font-weight: bolder
+}
+.nav-item {
+    display: flex;
+    padding: 0.62rem;
+    position: relative;
+    gap: 1.25rem;
+    margin-top: 1.56rem;
+    margin-right: 5.37rem;
+}
+.nav-item li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.nav-item li {
+    list-style: none;
+    padding: 0.68rem;
+
+
+}
+.front-page {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.front-page h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+
+
+}
+
+
+.map{
+    width: 75vw;
+    margin: 5rem 12rem;
+}
+iframe{
+    width: 75vw;
+}
+
+
+
+
+
+
+.contact-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 12rem;
+    
+    
+}
+
+.detail-type{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 3rem 0rem;
+   
+}
+
+
+
+
+input{
+    
+        width: 36.6vw;
+        border: transparent;
+        padding: 0.7rem 0.8rem;
+       color: black;
+      
+    
+    
+}
+.border{
+    border: 2px solid rgb(202, 199, 199);
+}
+
+textarea{
+    
+    padding: 0.6rem 0.5rem;
+    font-size: 0.9rem;
+    border: transparent;
+    resize: none;
+   
+}
+
+
+.send-quary{
+    margin: 1.2rem 0rem;
+}
+
+.send-respond a{
+    text-decoration: none;
+    padding: 0.7rem 1.8rem;
+    margin:  0.7rem 2rem  ;
+    color: rgb(148, 10, 0);
+    display: inline-block;
+}
+.a-border{
+    border: 2px solid rgb(148, 10, 0);
+    margin-top: 1rem;
+}

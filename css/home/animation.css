@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.know-more-btn :hover{
+      background-color: rgb(197, 129, 112);
+      
+}
+
+.campus-img-1 {
+    position: relative;
+}
+
+.campus-img-1:hover:after {
+    content: attr(data-place);
+    border-radius: 0.5rem;
+    background-color: rgba(66, 66, 66, 0.699);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 99%;
+    width: 100%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

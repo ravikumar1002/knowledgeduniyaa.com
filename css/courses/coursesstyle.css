@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.front-page-img {
+    background-image: url('../../img/about/nav-click-img.jpg');
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+
+}
+.front-page-img::after {
+    content: '';
+    position: absolute;
+    background-color: rgb(15, 28, 51);
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+.Eduford {
+    font-size: 2.5rem;
+    padding: 0.68rem;
+    color: white;
+    position: relative;
+    margin-top: 1.25rem;
+    margin-left: 4.62rem;
+    padding: 0.68rem;
+    font-weight: bolder
+}
+.nav-item {
+    display: flex;
+    padding: 0.62rem;
+    position: relative;
+    gap: 1.25rem;
+    margin-top: 1.56rem;
+    margin-right: 5.37rem;
+}
+.nav-item li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.nav-item li {
+    list-style: none;
+    padding: 0.68rem;
+
+
+}
+.front-page {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.front-page h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+
+
+}
+
+
+
+
+
+.courses-offer {
+    margin: 4rem 3rem;
+    text-align: center;
+}
+
+.courses-heading-1 {
+    font-size: 3rem;
+}
+
+.courses-heading-2 {
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+}
+
+.courses-details {
+    display: flex;
+    margin: 4rem 6rem;
+    gap: 2.5rem;
+
+
+}
+
+.intermediate {
+    background-color: burlywood;
+    padding: 25px;
+    border-radius: 1rem;
+}
+
+.intermediate-1 {
+    font-size: 1.8rem;
+    padding: 0 0 1rem 0;
+}
+
+.degree {
+    background-color: burlywood;
+    padding: 25px;
+    border-radius: 1rem;
+}
+
+.degree-1 {
+    font-size: 1.8rem;
+    padding: 0 0 1rem 0;
+}
+
+.post-graduation {
+    background-color: burlywood;
+    border-radius: 1rem;
+    padding: 25px;
+}
+
+.post-graduation-1 {
+    font-size: 1.8rem;
+    padding: 0 0 1rem 0;
+}
+
+.facilities {
+    margin: 5rem 1.5rem 6rem 1.5rem;
+}
+
+.our-facilities {
+    text-align: center;
+    margin: 5rem 0 2rem 0;
+}
+
+.our-facilities-1 {
+    font-size: 3rem;
+}
+
+.our-facilities-2 {
+    font-size: 1.1rem;
+    margin-top: 0.7rem;
+}
+
+
+
+
+.facilities-img {
+    width: 24rem;
+    height: 21rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.facilities-img img {
+
+    width: 24rem;
+    height: 21rem;
+    border-radius: 0.5rem;
+
+
+}
+
+.facilities-content {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.library,
+.ground,
+.canteen {
+    width: 24.29rem;
+
+}
+
+.library-1,
+.ground-1,
+.canteen-1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.2rem;
+
+
+}
+
+.library-2,
+.ground-2,
+.canteen-2 {
+    margin-left: 0.2rem;
+}
+
+
+
+
+
+
+
+
+.about{
+    height: 15rem;
+}
+.about-us-1{
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 2.5rem;
+}
+.about-us-2{
+    text-align: center;
+    margin: 0 21rem 0 21rem;
+}
+.about-us-3{
+    text-align: center;
+    margin: 2rem ;
+}
+
+.copyright{
+    text-align: center;
+}
+.star-review{
+font-size: 1.5rem;
+ color: rgba(238, 44, 18, 0.87);
+
+}
